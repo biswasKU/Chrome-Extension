@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 15px; 
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 450px;
+}
+
+#input-el{
+    border: 2px solid green;
+    width: 90%;
+    height: 30px;
+    display: block;
+    margin-top: 10px;
+}
+button{
+    background-color: green;
+    border: 2px solid green;
+    color: white;
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;  
+    padding: 10px;  
+    width: 130px;
+}
+#delete-btn{
+    background-color: white;
+    color: green;
+}
+#input-btn, #delete-btn, #save-tab{
+     display: inline-block; 
+}
+
+ul{
+     list-style: none;
+     padding-left: 0;
+     margin-top: 20px;
+}
+li{
+    margin-top: 10px;
+}
+li a{
+    color: green;
+}
